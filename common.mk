@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
 # Enable wireless Xbox 360 controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
+
 # SuperSU
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
@@ -63,7 +64,8 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     CMFileManager \
-    Eleven
+    Eleven \
+    LockClock
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
