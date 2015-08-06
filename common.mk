@@ -63,7 +63,6 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    CMFileManager \
     Eleven \
     LockClock
 
