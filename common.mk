@@ -64,11 +64,12 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
-# Custom CM packages
+# Custom stuff
 PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
-    LockClock
+    LockClock \
+    Auro
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
