@@ -68,8 +68,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
-    LockClock \
-    Auro
+    LockClock
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
