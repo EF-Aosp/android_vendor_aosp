@@ -127,9 +127,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # by default, do not update the recovery with system updates
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 
-# EF-AOSP Version
-EF_VERSION := $(TARGET_DEVICE)-$(shell date -u +%Y%m%d)
-PRODUCT_PROPERTY_OVERRIDES += ro.ef.version=$(EF_VERSION)
+# L-AOSP Version
+L_VERSION := $(TARGET_DEVICE)-$(shell date -u +%Y%m%d)
+PRODUCT_PROPERTY_OVERRIDES += ro.lf.version=$(L_VERSION)
 
 # Chromium Prebuilt
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
