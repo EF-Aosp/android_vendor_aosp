@@ -89,8 +89,7 @@ PRODUCT_PACKAGES += \
 # Custom stuff
 PRODUCT_PACKAGES += \
     CMFileManager \
-    Eleven \
-    LockClock
+    Eleven
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
