@@ -124,6 +124,10 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 
 
++# L-AOSP Version
+ +L_VERSION := $(TARGET_DEVICE)-$(shell date -u +%Y%m%d)
+ +PRODUCT_PROPERTY_OVERRIDES += ro.l.version=$(L_VERSION)
+ 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
